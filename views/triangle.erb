@@ -1,0 +1,2 @@
+<% valid = (@a + @b > @c) && (@a + @c > @b) && (@b + @c > @a) %>
+<h1> A triangle with lengths of <%=@a%>, <%=@b%>, and <%=@c%> is <%= !valid ? "not " : ""%>good.</h1>
